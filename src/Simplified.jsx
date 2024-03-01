@@ -37,7 +37,7 @@ function Simplified() {
 
     const handlerKeyDownButtonAdd = (event) => {
         if (event.key === 'Enter') {
-        handlerButtonAdd(event)
+            handlerButtonAdd(event)
         }
     }
 
@@ -114,7 +114,16 @@ function Simplified() {
                 <div className="col-12 col-lg-8 col-xxl-6 d-flex">
                     <div className='flex-grow-1 mx-2'>
 
-                        <input type={"text"} value={newItem} onChange={handlerNewItem} onKeyDown={handlerKeyDownButtonAdd} autoFocus={"autofocus"} className={"form-control Input"} placeholder={"Type new item"} ref={inputRefNewItem} />
+                        <input
+                            type={"text"}
+                            value={newItem}
+                            onChange={handlerNewItem}
+                            onKeyDown={handlerKeyDownButtonAdd}
+                            autoFocus={"autofocus"}
+                            className={"form-control Input"}
+                            placeholder={"Adicione uma nova tarefa!"}
+                            ref={inputRefNewItem}
+                        />
 
                     </div>
                     
