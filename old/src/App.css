@@ -1,0 +1,18 @@
+/* .App {
+  text-align: center;
+} */
+.cortado{
+  text-decoration: line-through;
+}
+
+.mt-075{
+  margin-top: 0.75rem !important;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-tbody{
+  padding-bottom: 0.5rem;
+}
